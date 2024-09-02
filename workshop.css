@@ -99,12 +99,13 @@ nav a{
 
 @media screen and (max-width: 768px) {
     .header{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-    }
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    position:fixed;
+}
     nav{
         display: flex;
         flex-direction: column;
@@ -122,12 +123,13 @@ nav a{
     
 @media screen and (max-width: 495px) {
     .header{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-    }
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    position:fixed;
+}
     nav{
         display: flex;
         flex-direction: column;
